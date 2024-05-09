@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Formulario</title>
+</head>
+<body>
+    <h1>Trabajando con Formularios:</h1>
+    <form action="">
+        <h2>Datos Personales: </h2>
+        <label for="name">Nombre: </label>
+        <input required type="text" id="name" name="nombre" placeholder="Juan"><br><br>
+        <label for="lastname">Apellido: </label>
+        <input required type="text" id="lastname" name="apellido" placeholder="Perez"><br><br>
+        <label for="email">Email: </label>
+        <input required type="text" id="email" name="correo" placeholder="juanp@mail.com"><br><br>
+        <label for="address">Dirección: </label>
+        <input type="text" id="address" name="direccion" placeholder="ruta1 1080"><br><br>
+        <label for="password">Contraseña: </label>
+        <input required type="password" id="password" name="contraseña" placeholder="xxxxxx"><br><br>
+        <label for="phone">Teléfono: </label>
+        <input required type="text" id="phone" name="phone" placeholder="+595 992 444 000"><br><br>
+        <h2>Lista de Productos: </h2>
+        <input type="checkbox" name="disco-500GB" id="disc-500">
+        <label for="disc-500"> Disco Duro 500 GB</label><br><br>
+        <input type="checkbox" name="disco-2TB" id="disc-2">
+        <label for="disc-2"> Disco Duro 2 TB</label><br><br>
+        <input type="checkbox" name="procesador-i5" id="i5">
+        <label for="i5"> Procesador i5</label><br><br>
+        <h2>Sexo: </h2>
+        <input required type="radio" name="sexo" id="hombre">
+        <label for="hombre">Masculino</label><br><br>
+        <input required type="radio" name="sexo" id="mujer">
+        <label for="mujer">Femenino</label><br><br>
+        <h2>Compañia: </h2>
+        <select name="" id="">
+            <option value="tigo">098</option>
+            <option value="personal">097</option>
+            <option value="claro">099</option>
+            <option value="vox">096</option>
+        </select><br><br>
+        <label for="message">Mensaje: </label><br>
+        <textarea name="mensaje" id="message" cols="20" rows="5" placeholder="..:Escriba aquí:.."></textarea><br><br>
+        <input required type="checkbox" name="aceptado" id="condiciones">
+        <label for="condiciones">Acepto las condiciones establecidas.</label><br><br>
+        <input type="submit" value="Enviar Datos">
+    </form>
+</body>
+</html>
